@@ -8,6 +8,8 @@
 
 *currencies.js* - Using app.put(), req.params.name and req.query we updated array of countries that use certain currency. The :name param represents the currency name in the currencies object. The route handler replaces the countries array of the correct single-currency object with an updated array from the query. It sends the updated array as a response.
 
+*soups.js*  - Using app.post(), we created a route that adds a new soup name to the soups array from the name property of the req.query object. It also set a status code  201 for ‘Created’.
+
 ### Tools used 
 
 + JavaScript

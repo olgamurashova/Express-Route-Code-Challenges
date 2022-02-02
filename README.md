@@ -14,6 +14,8 @@
 
 *sauceRouter* - Using express.Router(), we mounted the sauceRouter with app.use so that a GET /sauces request sends back the sauces array.
 
+*mountainsRouter.js* - Using express.Router(), we created two routers that send back the array in response to GET request. app.use() mounts the routers at their specific base paths, and .get() handlers were created for each router at their base path, '/'.
+
 ### Tools used 
 
 + JavaScript

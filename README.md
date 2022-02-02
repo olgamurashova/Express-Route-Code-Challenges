@@ -10,6 +10,8 @@
 
 *soups.js*  - Using app.post(), we created a route that adds a new soup name to the soups array from the name property of the req.query object. It also set a status code  201 for ‘Created’.
 
+*puddingFlavors.js* - Using app.delete(), we deleted the correct pudding and send a 204 response if the pudding name exists and send a 404 response if it does not.
+
 ### Tools used 
 
 + JavaScript

@@ -12,6 +12,8 @@
 
 *puddingFlavors.js* - Using app.delete(), we deleted the correct pudding and send a 204 response if the pudding name exists and send a 404 response if it does not.
 
+*sauceRouter* - Using express.Router(), we mounted the sauceRouter with app.use so that a GET /sauces request sends back the sauces array.
+
 ### Tools used 
 
 + JavaScript

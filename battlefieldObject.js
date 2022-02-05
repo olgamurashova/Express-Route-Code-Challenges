@@ -27,11 +27,12 @@ app.get('/battlefields/:name', (req, res, next) => {
   }
 })
 
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
-});
 
 app.get('/battlefields/:name', (req, res, next) => {
   const battlefieldName = req.params.name;
   
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
 });
